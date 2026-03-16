@@ -22,9 +22,9 @@ Frontend (React 18 + TypeScript + Vite)
     |
     | HTTP / JSON
     v
-Backend (Python + FastAPI)
+Backend (Python + FastAPI async)
     |
-    | Motor (async)
+    | Motor (async MongoDB driver)
     v
 MongoDB Atlas
   - UAT: UAT_KFC_POS_Menus
