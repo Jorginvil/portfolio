@@ -30,29 +30,18 @@ Panel interactivo que consulta ordenes de venta, muestra productos vendidos por 
 
 ---
 
-### 3. Catalogo de Productos - Imagen PLU
-**Navegador visual de catalogo de productos con imagenes y filtros avanzados.**
+### 3. Catalogo de Productos - API y Navegador Visual
+**API REST y frontend para gestion, consulta y visualizacion del catalogo de productos BackOffice MXPv2.**
 
-Aplicacion que permite explorar el catalogo de productos MAXPOINT por cadena, con filtrado jerarquico (clasificacion, menu, categoria de precio, categoria de boton), busqueda con debounce, zoom de imagenes y exportacion a Excel.
+Servicio que expone endpoints para consulta de productos por cadena, filtros dinamicos en cascada, preguntas sugeridas por producto, navegacion visual con imagenes y zoom, y exportacion de catalogos a Excel con formato personalizado. Evoluciono desde un visor de imagenes PLU hasta una API completa con frontend interactivo.
 
-`React` `Vite` `Tailwind CSS` `Node.js` `Express` `SQL Server` `Docker`
-
-[Ver detalle del proyecto](projects/imagen-plu/)
-
----
-
-### 4. API Catalogo BackOffice
-**API REST para gestion y consulta del catalogo de productos BackOffice MXPv2.**
-
-Servicio backend que expone endpoints para consulta de productos por cadena, filtros dinamicos en cascada, preguntas sugeridas por producto y exportacion de catalogos a Excel con formato personalizado.
-
-`Node.js` `Express` `SQL Server` `ExcelJS` `Docker`
+`React` `Vite` `Tailwind CSS` `Node.js` `Express` `SQL Server` `ExcelJS` `Docker`
 
 [Ver detalle del proyecto](projects/catalogo-api/)
 
 ---
 
-### 5. Catalogo Productos MXP2
+### 4. Catalogo Productos MXP2
 **Comparador de menus entre BackOffice (UAT) y POS (Produccion).**
 
 Sistema que permite navegar la jerarquia de menus (Menu > Categoria > Producto) y comparar campo a campo las diferencias entre lo configurado en BackOffice y lo desplegado en POS, detectando PLUs no asignados y discrepancias de sincronizacion.
@@ -63,7 +52,7 @@ Sistema que permite navegar la jerarquia de menus (Menu > Categoria > Producto) 
 
 ---
 
-### 6. QA Task Manager
+### 5. QA Task Manager
 **Plataforma de gestion de tareas con panel integrado de pruebas QA.**
 
 Aplicacion de tareas con dashboard de estadisticas y un panel de testing que ejecuta pruebas de carga (50 usuarios concurrentes), estres (1000 tareas en lote), validacion de API REST, rendimiento y deteccion de vulnerabilidades XSS.
